@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sandeshi341/Zendesk-Powerbi-.git/static/css/main.38a812e5.css",
+    "main.js": "/sandeshi341/Zendesk-Powerbi-.git/static/js/main.30849e6a.js",
+    "static/js/453.44341da2.chunk.js": "/sandeshi341/Zendesk-Powerbi-.git/static/js/453.44341da2.chunk.js",
+    "index.html": "/sandeshi341/Zendesk-Powerbi-.git/index.html",
+    "main.38a812e5.css.map": "/sandeshi341/Zendesk-Powerbi-.git/static/css/main.38a812e5.css.map",
+    "main.30849e6a.js.map": "/sandeshi341/Zendesk-Powerbi-.git/static/js/main.30849e6a.js.map",
+    "453.44341da2.chunk.js.map": "/sandeshi341/Zendesk-Powerbi-.git/static/js/453.44341da2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38a812e5.css",
+    "static/js/main.30849e6a.js"
+  ]
+}
