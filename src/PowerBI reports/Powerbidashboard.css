@@ -1,0 +1,26 @@
+.Embed-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* For smaller screens, ensure it remains responsive */
+  @media (max-width: 768px) {
+    .Embed-container {
+      height: 80vh;
+      width: 100%;
+    }
+  }
+  
+  /* Further adjustments for extra small devices */
+  @media (max-width: 480px) {
+    .Embed-container {
+      height: 70vh;
+      width: 100%;
+      padding: 5px;
+    }
+  }
