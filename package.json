@@ -15,12 +15,10 @@
     "zendesk-visuals": "file:"
   },
   "scripts": {
-    "start": "cross-env PORT=4000 react-scripts start",
+    "start": "cross-env PORT=5002 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

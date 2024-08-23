@@ -1,15 +1,20 @@
 
+import { PowerBIEmbed } from 'powerbi-client-react';
 import './App.css';
-import Samplefile from './Component/Samplefile';
-import Powerbidashboard from './PowerBI reports/Powerbidashboard';
+
+import Powerbidashboard from './PowerBI reports/PowerBIEmbed';
+import HtmlFile from './Component/allfiles/htmlfile';
+import PowerBIReport from './Component/allfiles/PowerBIReport';
 
 
 function App() {
   return (
    <>
-  <Samplefile>Sample</Samplefile>
+ {/* <HtmlFile>file</HtmlFile> */}
+ <PowerBIReport>PowerBi report</PowerBIReport>
+{/* <PowerBIEmbed>Powerbi</PowerBIEmbed>  */}
 
-    {/* <Powerbidashboard>Zendesk Visuals</Powerbidashboard> */}
+   {/* <Powerbidashboard>Zendesk Visuals</Powerbidashboard>  */}
     </>
   );
 }
