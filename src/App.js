@@ -1,8 +1,8 @@
-import { PowerBIEmbed } from "powerbi-client-react";
+// import { PowerBIEmbed } from "powerbi-client-react";
 import "./App.css";
 
 import Powerbidashboard from "./PowerBI reports/PowerBIEmbed";
-import HtmlFile from "./Component/allfiles/htmlfile";
+
 import PowerBIReport from "./Component/allfiles/PowerBIReport";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
