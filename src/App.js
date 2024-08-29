@@ -1,9 +1,8 @@
 // import { PowerBIEmbed } from "powerbi-client-react";
 import "./App.css";
+import PowerBIEmbeds from "./Component/FrontEnd/PowerBIEmbeds";
 
-import Powerbidashboard from "./PowerBI reports/PowerBIEmbed";
 
-import PowerBIReport from "./Component/allfiles/PowerBIReport";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -11,7 +10,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<PowerBIReport />} />,
+        <Route path="/" element={<PowerBIEmbeds/>} />,
         {/* <PowerBIEmbed>Powerbi</PowerBIEmbed> 
 
    <Powerbidashboard>Zendesk Visuals</Powerbidashboard> */}
